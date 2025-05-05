@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to right, #1f1c2c, #928dab);
+    color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: #2a2a40;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-family: 'Fira Code', monospace;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    color: #00ffc3;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #444;
+    padding-bottom: 0.3rem;
+}
+
+p,
+li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: circle;
+    padding-left: 1.5rem;
+}
+
+a {
+    color: #00ffc3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+footer {
+    margin-top: 3rem;
+    font-size: 0.9em;
+    color: #aaa;
+    text-align: center;
+}
+
+.intro {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.note {
+    font-size: 0.95rem;
+    color: #888;
+    font-style: italic;
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 2rem 1rem;
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+.email {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.email span {
+    font-weight: bold;
+    color: #0073e6;
+    /* Blue for the username and @ */
+}
+
+
+.email {
+    color: white;
+}
+
+.email span {
+    font-weight: bold;
+    color: #0073e6;
+    /* Blue for the username and @ */
+}
